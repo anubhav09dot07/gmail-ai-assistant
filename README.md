@@ -1,5 +1,7 @@
 # AI Gmail Knowledge Assistant
 
+![AI Gmail Knowledge Assistant main page](docs/main-page.png)
+
 Phase 1 establishes the Google OAuth -> Gmail API connection. Phase 2 adds Gmail message ingestion, MIME-aware body extraction, preprocessing, and normalized email metadata. Phase 3 adds metadata-preserving chunking and local embeddings.
 
 ## Prerequisites
