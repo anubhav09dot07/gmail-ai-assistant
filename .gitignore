@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment and OAuth credentials
+.env
+.env.*
+!.env.example
+credentials.json
+client_secret*.json
+token.json
+backend/token.json
+backend/tokens/
+backend/sync_metadata.json
+backend/.env
+
+# Local data and vector-store artifacts
+qdrant_storage/
+storage/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# Local tooling
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+*.log
+.~lock.*
